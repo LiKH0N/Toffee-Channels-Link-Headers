@@ -93,7 +93,7 @@ data={
 "updated_on":date_time,
 "channels":data_channels
 }
-with open("toffee_channel_data.json","w") as w:
+with open("toffee_channel_data.m3u8","w") as w:
     json.dump(data,w,indent=2)
     
     
